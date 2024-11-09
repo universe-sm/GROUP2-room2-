@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>room 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<style>
+    .bottom-right-image {
+      position: absolute;
+      bottom: 8px;  /* Distance from the bottom */
+      right: 290px;   /* Distance from the right */
+      width: 200px;  /* Set your desired width */
+      height: 372px;
+    }
+    
+    
+            /* Overlapping image */
+            .overlap-image {
+                position: absolute;
+                top: 20px;     /* Adjust as needed */
+                left: 20px;    /* Adjust as needed */
+                width: 100px;  /* Size of the image */
+                border-radius: 8px;
+                z-index: 10;   /* Higher z-index to place it on top */
+            }
+     .rounded-image {
+    border-radius: 15px; /* Adjust this value for how rounded you want the edges */
+}
+    
+    
+    
+            
+            
+    </style>
+<body>
+    <div id="main">
+
+        <div id="left">
+            <div id="leftup">
+                <div class="icon">
+                    <i class="ri-folder-fill" style="font-size: x-large;margin-bottom: 5px;margin-left: 5px;cursor: pointer;"></i>
+                    <i class="ri-video-on-fill" style="font-size: x-large;margin-bottom: 5px;margin-left: 5px;cursor: pointer;"></i>
+                    <i class="ri-chrome-fill" style="font-size: x-large;margin-bottom: 5px;margin-left: 5px;cursor: pointer;"></i>
+                </div>
+                <div id="message">
+                    <img src="images/Group 9.png" alt="" style="width: 300px; height: 220px;" class="rounded-image">
+                </div>
+            </div>
+            <div id="leftdown">
+                <div id="contact">
+                    <div class="no1">
+                        <p style="font-size: x-large;">Unknown</p>
+                        <p style="margin-right: 2px;color: rgb(150, 131, 131);font-size: smaller;">11:59AM</p>
+                    </div>
+                    <div class="no1">
+                        <p style="font-size: x-large;">******142</p>
+                        <p style="margin-right: 2px;color: rgb(150, 131, 131);font-size: smaller;">11:59AM</p>
+                    </div>
+                    <div class="no1">
+                        <p style="color: rgb(150, 131, 131);font-size: x-large;">Unknown</p>
+                        <p style="margin-right: 2px;color: rgb(150, 131, 131);font-size: smaller;">01:20PM</p>
+                    </div>
+                    <div class="no1">
+                        <p style="color:rgb(150, 131, 131) ;font-size: x-large;">******142</p>
+                        <p style="margin-right: 2px;color: rgb(150, 131, 131);font-size: smaller;">01:20PM</p>
+                    </div>
+
+                </div>
+                <div id="call">
+                    <div id="no">
+                        <h1>******1432</h1>
+                    </div>
+                    <div class="icons">
+                        <i class="ri-phone-fill" style="color: red;rotate: 135deg;cursor: pointer;"></i>
+                        <i class="ri-phone-fill" style="color:green;cursor: pointer;"></i>
+                        <i class="ri-mic-fill" style="cursor: pointer;"></i>
+                        <i class="ri-share-forward-box-line" style="cursor: pointer;"></i>
+                        <i class="ri-chat-3-fill" style="cursor: pointer;"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="right">
+            <div id="rightup">
+                <div id="meet">
+                    <div id="up">
+                        <p style="color: white;margin: 20px;">Heyy AKASH,</p>
+                    </div>
+                    <div id="down">
+                        <p style="font-size: large;color: white;">meet within 15 mins</p>
+                        <p style="color: red;font-size: x-large;margin-top: 10px;">BE READY</p>
+                    </div>
+                </div>
+            </div>
+            <div id="rightdown">
+                
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="images/eye.png" alt="Bottom left Image" class="bottom-right-image">
+      </div>
+      
+        
+               
+          
+      </div>
+      <div class="chat-box">
+        <!-- Header with Agent #073 in the top-right corner -->
+       
+        <div class="agent-label">
+          Agent #073
+        </div>
+        <div class="chatbox-body">
+          <!-- Message with an image -->
+          <div class="message">
+              <img src="images/chatbox.png" alt="Avatar">   
+          </div>
+        
+        <!-- Chat area with chat bubbles -->
+        <div class="chat-area" id="chatArea">
+          <!-- Example messages -->
+          <div class="message agent-message"></div>
+          <div class="message user-message"></div>
+          <div class="message agent-message"></div>
+        </div>
+        
+      </div>
+
+
+</body>
+
+</html>
